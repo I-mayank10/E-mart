@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      flexBasis: {
+        '31': '31%',
+      },
+    },
   },
   plugins: [],
 }

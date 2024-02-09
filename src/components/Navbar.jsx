@@ -12,7 +12,8 @@ const Navbar = () => {
     
       return (
         < >
-    <div id='navbar' className='m-auto shadow-2xl gap-5'>
+        <div  className=' h-full inline-block w-full m-auto    z-20 '>
+    <div  id='navbar' className=' justify-center shadow-2xl gap-5 '>
     <div className=' flex justify-between flex-wrap text-2xl  text-black shadow-gray-800  p-4 w-11/12   '>
     <div  className='flex gap-3'>
     <div className="logo">
@@ -40,7 +41,7 @@ const Navbar = () => {
     </div>}
     </div>
       </div>
-        
+      </div>
         
         </>
     
